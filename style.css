@@ -1,0 +1,269 @@
+.nav-top-fon{
+	background: #F6F8FB;
+}
+.nav-top{
+	width: 1170px;
+	height: 41px;
+	line-height: 41px;
+	margin: auto;
+}
+.nav-top ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+}
+.nav-top a{
+	font-family: Roboto;
+	font-size: 14px;
+	color: #A1AFBF;
+}
+.nav-top img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.logo{
+	width: 8%;
+}
+.nav-fon{
+	background: #FFFFFF;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #FFFFFF;
+	width: 1170px;
+	height: 70px;
+	line-height: 70px;
+	margin: auto;
+}
+nav{
+	width: 50%;
+}
+.nav a{
+	font-family: Roboto;
+	font-size: 17px;
+	color: #434343;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.nav img{
+	vertical-align: middle;
+	margin-right: 4px;
+}
+main{
+	
+}
+.baner{
+	height: 378px;
+	background: #E9EFF4;
+}	
+.baner-block{
+	margin: auto;
+	width: 1170px;
+}
+.baner-title{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 36px;
+	padding: 70px 0 20px 0;
+}
+.baner-content{
+	font-family: Roboto;
+	font-size: 17px;
+	color: #292929;
+}
+.baner-btn{
+	background: #F03550;
+	border-radius: 3px ;
+	border:1px solid #ccc;
+	height: 47px;
+	line-height: 47px;
+	width: 194px;
+	font-size: 18px;
+	font-family: Roboto;
+	margin-top: 30px;
+	text-align: center;
+}
+.baner-btn a{
+	color: #FFFFFF;
+}
+.icon-block{
+	margin: auto;
+	width: 1170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.icon{
+	background: #FFFFFF;
+	box-shadow: 0px 10px 34px rgba(175, 196, 208, 0.35);
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	width: 170px;
+	height: 158px;
+}
+.icon:hover{
+	box-shadow: 0px 5px 15px rgba(175, 196, 208, 0.35);;
+}
+.icon-text a{
+	font-family: Roboto;
+	font-size: 16px;
+	color: #292929;
+	margin:5px 5px;
+}
+.stock{
+	background: #F03550;
+	box-shadow: 0px 10px 34px rgba(175, 196, 208, 0.35);
+	border-radius: 3px;
+	width: 396px;
+	height: 158px;
+	font-family: Roboto;
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+.stock p{
+	margin: 20px;
+}
+.best-hosting{
+	margin: auto;
+	width: 1170px;
+}
+.best-hosting h1{
+	font-family: Roboto;
+	font-size: 32px;
+	color: #607286;
+	margin: 70px 0 40px;
+}
+.best-hosting-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.best-hosting-block{
+	width: 370px;
+	height: 341px;
+	box-shadow: 0px 10px 35px rgba(175, 196, 208, 0.35);
+	border-radius: 3px;
+	margin-bottom: 40px;
+}
+.hosting-img{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.hosting-content-tittle{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 20px;
+	color: #292929;
+	margin: 50px 40px 10px;
+}
+.hosting-content-text{
+	font-family: Roboto;
+	font-size: 17px;
+	color: #292929;
+	margin-left: 40px;
+}
+.hosting-price{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 30px;
+	color: #292929;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.services-wrap{
+	margin: auto;
+	width: 1170px;
+}
+.services-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.services-tittle{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #607286;
+}
+.services-text{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #292929;
+	margin-top: 30px;
+}
+.services{
+	width: 550px;
+	height: 235px;
+}
+.services-image{
+	border:1px solid #000;
+}
+.client-wrap{
+	background: #F6F8FB;
+}
+.client-block{
+	margin: auto;
+	width: 1170px;
+	margin-top: 80px;
+}
+.client-block p{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #607286;
+	padding-top: 40px;
+}
+.client-icon-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.client-icon{
+	margin:20px;
+	filter: grayscale(100%);
+}
+.client-icon:hover{
+	filter: grayscale(0);
+}
+.certificates-competence-wrap{
+	margin: auto;
+	width: 1170px;
+	margin-top: 80px;
+}
+.certificates-competence-wrap p{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #607286;
+	padding-top: 40px;
+}
+.certificates-block{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.competence-block{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+}
