@@ -2,10 +2,13 @@
 	background: #F6F8FB;
 }
 .nav-top{
-	width: 1170px;
 	height: 41px;
 	line-height: 41px;
 	margin: auto;
+}
+.wrap{
+	margin: auto;
+	width: 80%;
 }
 .nav-top ul{
 	display: flex;
@@ -24,9 +27,6 @@ a{
 	vertical-align: middle;
 	margin-right: 4px;
 }
-.logo{
-	width: 8%;
-}
 .nav-fon{
 	background: #FFFFFF;
 }
@@ -35,10 +35,8 @@ a{
 	flex-direction: row;
 	justify-content: space-between;
 	background: #FFFFFF;
-	width: 1170px;
 	height: 70px;
 	line-height: 70px;
-	margin: auto;
 }
 nav{
 	width: 50%;
@@ -48,6 +46,10 @@ nav{
 	font-size: 17px;
 	color: #434343;
 }
+.nav a:hover{
+	color: #F92E4B;
+}
+
 nav ul{
 	display: flex;
 	flex-direction: row;
@@ -65,10 +67,6 @@ main{
 	height: 378px;
 	background: #E9EFF4;
 }	
-.baner-block{
-	margin: auto;
-	width: 1170px;
-}
 .baner-title{
 	font-family: Roboto;
 	font-weight: bold;
@@ -96,8 +94,6 @@ main{
 	color: #FFFFFF;
 }
 .icon-block{
-	margin: auto;
-	width: 1170px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -111,7 +107,7 @@ main{
 	justify-content: center;
 	text-align: center;
 	margin-top: 20px;
-	width: 170px;
+	width: 15%;
 	height: 158px;
 }
 .icon:hover{
@@ -127,7 +123,7 @@ main{
 	background: #F03550;
 	box-shadow: 0px 10px 34px rgba(175, 196, 208, 0.35);
 	border-radius: 3px;
-	width: 396px;
+	width: 35%;
 	height: 158px;
 	font-family: Roboto;
 	font-size: 20px;
@@ -137,9 +133,15 @@ main{
 .stock p{
 	margin: 20px;
 }
-.best-hosting{
-	margin: auto;
-	width: 1170px;
+h1{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #607286;
+	margin-bottom: 30px;
+}
+.wrap-hosting{
+	margin-top: 80px;
 }
 .best-hosting h1{
 	font-family: Roboto;
@@ -153,7 +155,7 @@ main{
 	justify-content: space-between;
 }
 .best-hosting-block{
-	width: 370px;
+	width: 30%;
 	height: 341px;
 	box-shadow: 0px 10px 35px rgba(175, 196, 208, 0.35);
 	border-radius: 3px;
@@ -184,9 +186,11 @@ main{
 	margin-top: 40px;
 	margin-left: 40px;
 }
-.services-wrap{
-	margin: auto;
-	width: 1170px;
+h2{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 32px;
+	color: #607286;
 }
 .services-block{
 	display: flex;
@@ -194,20 +198,14 @@ main{
 	justify-content: space-between;
 	margin-top: 60px;
 }
-.services-tittle{
-	font-family: Roboto;
-	font-weight: bold;
-	font-size: 32px;
-	color: #607286;
-}
-.services-text{
+.text{
 	font-family: Roboto;
 	font-size: 18px;
 	color: #292929;
 	margin-top: 30px;
 }
 .services{
-	width: 550px;
+	width: 48%;
 	height: 235px;
 }
 .services-image{
@@ -215,18 +213,10 @@ main{
 }
 .client-wrap{
 	background: #F6F8FB;
+	margin-top:80px;
 }
 .client-block{
-	margin: auto;
-	width: 1170px;
-	margin-top: 80px;
-}
-.client-block p{
-	font-family: Roboto;
-	font-weight: bold;
-	font-size: 32px;
-	color: #607286;
-	padding-top: 40px;
+	padding-top: 50px;
 }
 .client-icon-wrap{
 	display: flex;
@@ -242,16 +232,7 @@ main{
 	filter: grayscale(0);
 }
 .certificates-competence-wrap{
-	margin: auto;
-	width: 1170px;
 	margin-top: 80px;
-}
-.certificates-competence-wrap p{
-	font-family: Roboto;
-	font-weight: bold;
-	font-size: 32px;
-	color: #607286;
-	padding-top: 40px;
 }
 .certificates-block{
 	display: flex;
@@ -266,4 +247,195 @@ main{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 20px;
+}
+.block-contekst{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.wrap-contekst{
+	margin-top: 60px;
+}
+.contekst{
+	width: 65%;
+}
+.contekst-image{
+	width: 35%;
+}
+.form-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.field{
+	width: 25%;	
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.field-text{
+	width: 75%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.field label{
+	display: block;
+}
+label{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 12px;
+	color: #BAC5CD;
+	text-transform: uppercase;
+}
+
+input, textarea{
+	background: #FFFFFF;
+	border: 1px solid #E9EFF4;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #323C47;
+}
+.field input{
+	width: 80%;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.field input:last-child {
+	margin-bottom: 0;
+}
+.field-text label {
+	display: block;
+}
+.field-text textarea{
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #E9EFF4;
+	border-radius: 5px;
+	height: 100%;
+}
+.btn-block{
+	text-align: center;
+}
+.btn{
+	background: #F03550;
+	border-radius: 3px;
+	width: 194px;
+	height: 47px;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin: 40px;
+}
+.footer-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.information{
+	width: 65%;
+}
+.footer-tittle{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.information-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-wrap a{
+	font-family: Roboto;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.footer-wrap li{
+	margin-top: 15px;
+}
+.footer-first{
+	background: #21252B;
+}
+.contakt{
+	width: 25%;
+}
+.footer-second{
+	background: #282C32;
+	height: 49px;
+	line-height: 49px;
+}
+.resource{
+	font-family: Roboto;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1200px){
+.nav-top a {
+	font-size: 10px;
+}
+.icon{
+	height: 125px;
+}
+.stock{
+	height: 125px;
+}
+.best-hosting-block{
+	height: 340px;
+}
+.hosting-content-tittle {
+	font-size: 18px;
+}
+.hosting-content-text {
+    font-size: 16px;
+ }
+.services {
+    height: 235px;
+}
+.certificates img{
+	height: 290px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+.nav-top a {
+	font-size: 10px;
+}
+.nav a{
+	font-size: 12px;
+}
+nav{
+	width: 55%;
+}
+.icon-block{
+	flex-wrap: wrap;
+}
+.icon{
+	width: 23%;
+	margin-bottom: 20px;
+}
+.stock{
+	margin: auto;
+	width: 50%;
+}
+.best-hosting-wrap{
+	flex-wrap: wrap;
+}
+.best-hosting-block{
+	width: 45%;
+}
+ .text{
+ 	font-size: 14px;
+ }
+
+}
+@media all and (min-width: 460px) and (max-width: 767px){
+
+}
+@media all and (min-width: 320px) and (max-width: 459px){
+
 }
