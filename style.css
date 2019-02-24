@@ -156,7 +156,6 @@ h1{
 }
 .best-hosting-block{
 	width: 30%;
-	height: 341px;
 	box-shadow: 0px 10px 35px rgba(175, 196, 208, 0.35);
 	border-radius: 3px;
 	margin-bottom: 40px;
@@ -437,5 +436,73 @@ nav{
 
 }
 @media all and (min-width: 320px) and (max-width: 459px){
+
+}
+
+.server-baner-wrap{
+	background: url(image/baner.png);
+	width: 100%;
+	background-size: cover;
+	padding: 100px 0 90px 0;
+}
+.servers h1{
+	font-family: Roboto;
+	font-size: 42px;
+	color: #FFFFFF;
+}
+
+.server-baner-block{
+	width: 50%;
+}
+.server-baner-text{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.server-services{
+	margin-top: 50px;
+}
+.server-tittle{
+	text-align: center;
+	margin-top: 60px;
+}
+.server-tittle:after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 51px;
+	background: #607286;
+	margin: auto;
+    margin-top: 14px;
+}
+.server-services-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 25%;
+	margin:  0 15px;
+}
+.server-services-img{
+	text-align: center;
+	margin-top: 75px;
+}
+.server-services-content{
+	font-size: 21px;
+	text-align: center;
+	color: #222222;
+	margin-top: 25px;
+	padding: 0 50px;
+}
+.server-services-btn{
+	font-size: 18px;
+	text-align: center;
+	color: #333333;
+	border-radius: 3px;
+	height: 24px;
+	width: 60%;
+	border: 0.5px solid #333333;
+	margin:auto;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	padding: 10px;
 
 }
