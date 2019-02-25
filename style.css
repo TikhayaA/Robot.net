@@ -111,7 +111,7 @@ main{
 	height: 158px;
 }
 .icon:hover{
-	box-shadow: 0px 5px 15px rgba(175, 196, 208, 0.35);;
+	box-shadow: 0px 5px 15px rgba(175, 196, 208, 0.35);
 }
 .icon-text a{
 	font-family: Roboto;
@@ -457,6 +457,7 @@ nav{
 .server-baner-text{
 	font-size: 18px;
 	color: #FFFFFF;
+	font-family: Roboto;
 }
 .server-services{
 	margin-top: 50px;
@@ -487,15 +488,14 @@ nav{
 }
 .server-services-content{
 	font-size: 21px;
+	font-family: Roboto;
 	text-align: center;
 	color: #222222;
 	margin-top: 25px;
 	padding: 0 50px;
 }
 .server-services-btn{
-	font-size: 18px;
 	text-align: center;
-	color: #333333;
 	border-radius: 3px;
 	height: 24px;
 	width: 60%;
@@ -504,5 +504,93 @@ nav{
 	margin-top: 25px;
 	margin-bottom: 45px;
 	padding: 10px;
-
+}
+.server-services-btn a{
+	font-size: 18px;
+	font-family: Roboto;
+	color: #333333;
+}
+.server-services-block:hover{
+	box-shadow: 0px 5px 15px rgba(175, 196, 208, 0.35);
+}
+.server-stage-block{
+	width: 20%;
+	margin-top: 70px;
+}
+.server-stage-img{
+	text-align: center;
+	position: relative;
+}
+.server-stage-img:after{
+	content: url(image/Vector4.png);
+	display:block;
+	position: absolute;
+	right: -20px;
+    top: 30px;
+}
+.server-stage-block:last-child .server-stage-img:after{
+	content: none;
+}
+.server-stage-tittle{
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222222;
+	margin: 50px 0 20px;
+}
+.server-stage-content{
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color: #222222;
+}
+.server-stage-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.server-reviews{
+	text-align: center;
+	margin-top: 60px;
+}
+.server-reviews-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.server-reviews-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+}
+.reviews-img-wrap{
+	display: flex;
+	flex-direction: row;
+}
+.reviews-icon img{
+	border-radius: 60px;
+}
+.reviews-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
+}
+.name{
+	text-transform: uppercase;
+}
+.position{
+	font-family: Roboto;
+	font-size: 20px;
+	color: #222222;
+}
+.server-reviews-content p{
+	font-family: Roboto;
+	font-size: 20px;
+	color: #222222;
+	margin: 15px 0;
 }
