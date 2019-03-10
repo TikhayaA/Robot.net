@@ -152,6 +152,7 @@ h1{
 .best-hosting-wrap{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .best-hosting-block{
@@ -438,19 +439,18 @@ nav{
 @media all and (min-width: 320px) and (max-width: 459px){
 
 }
-
-.server-baner-wrap{
-	background: url(image/baner.png);
-	width: 100%;
-	background-size: cover;
+.server-baner{
 	padding: 100px 0 90px 0;
 }
-.servers h1{
+.servers-tittle-text{
 	font-family: Roboto;
 	font-size: 42px;
 	color: #FFFFFF;
 }
-
+.bitrix24-baner-wrap{
+	background: url(image/baner.png);
+	background-size: cover;
+}
 .server-baner-block{
 	width: 50%;
 }
@@ -458,11 +458,14 @@ nav{
 	font-size: 18px;
 	color: #FFFFFF;
 	font-family: Roboto;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin: auto;
 }
 .server-services{
 	margin-top: 50px;
 }
-.server-tittle{
+.tittle-center{
 	text-align: center;
 	margin-top: 60px;
 }
@@ -552,10 +555,6 @@ nav{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.server-reviews{
-	text-align: center;
-	margin-top: 60px;
-}
 .server-reviews-wrap{
 	display: flex;
 	flex-direction: row;
@@ -593,4 +592,96 @@ nav{
 	font-size: 20px;
 	color: #222222;
 	margin: 15px 0;
+}
+.server-baner-wrap{
+	background: url(image/0_index_inleed_copy.png);
+	background-size: cover;
+}
+.server-seo-contentleft{
+	margin-right: 80px;
+}
+.server-seo-content p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #292929;
+	margin: 15px 0;
+
+}
+
+
+
+
+
+
+@media all and (min-width: 1025px) and (max-width: 1200px){
+.nav-top a {
+	font-size: 10px;
+}
+.icon{
+	height: 125px;
+}
+.stock{
+	height: 125px;
+}
+.best-hosting-block{
+	height: 340px;
+}
+.hosting-content-tittle {
+	font-size: 18px;
+}
+.hosting-content-text {
+    font-size: 16px;
+ }
+.services {
+    height: 235px;
+}
+.certificates img{
+	height: 290px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+.nav-top a {
+	font-size: 10px;
+}
+.nav a{
+	font-size: 12px;
+}
+nav{
+	width: 55%;
+}
+.icon-block{
+	flex-wrap: wrap;
+}
+.icon{
+	width: 23%;
+	margin-bottom: 20px;
+}
+.stock{
+	margin: auto;
+	width: 50%;
+}
+.best-hosting-wrap{
+	flex-wrap: wrap;
+}
+.best-hosting-block{
+	width: 45%;
+}
+ .text{
+ 	font-size: 14px;
+ }
+
+}
+@media all and (min-width: 460px) and (max-width: 767px){
+
+}
+@media all and (min-width: 320px) and (max-width: 459px){
+.best-hosting-wrap{
+	flex-wrap: wrap;
+}
+.best-hosting-block{
+	width: 45%;
+}
+ .text{
+ 	font-size: 14px;
+ }
 }
